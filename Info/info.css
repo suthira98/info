@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Popins: 200,300,400,500,600,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.box1{
+	display: flex;
+	/*width: 900px;*/
+}
+
+/*.box .imgBx{}*/
+
+.box1 .imgBx img{
+	max-width: 150%;
+	/*display: flex;*/
+	/*position: relative;*/
+	max-height: 50%;
+	/*display: inline-block;*/
+ 	/*flex-basis: 40%*/
+}
+
+.content{
+	top: 100px;
+	right: 150px;
+	width: 50%;
+	/*display: flex;*/
+	position: relative;
+	padding-left: 1px;
+	/*float: right;*/
+	/*display: flex;*/
+}
+
+.content h2{
+	color: #1e4685;
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+.box2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box2 .box{
+	position: relative;
+	width: 400px;
+	background: #0070C0;
+	padding: 25px 35px 25px;
+	box-shadow: 5px 5px 5px 5px #888888;
+	margin: 20px;
+	left: 100px;
+}
+
+.box2 .box p{
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+}
+
+.boxHead{
+	margin-top: -650px;
+	color: #1e4685;
+	font-size: 30px;
+	margin-left: 650px;
+}
+
+.box3{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box3 .leadersInfo, .box3 .leadersPhoto{
+	position: relative;
+	/*width: 400px;*/
+	/*margin: 20px;*/
+	left: 50px;
+	display: inline;
+	float: left;
+}
+
+.leaders{
+	margin-top: 25px;
+	color: #1e4685;
+	font-size: 30px;
+	margin-left: 580px;
+}
+
+.box3 .leadersInfo{
+	font-size: 17px;
+	text-align: left;
+	width: 400px;
+	top: 20px;
+	margin-left: 50px;
+}
+
+.leadersPhoto{
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.leaderMem{
+	/*margin-left: 8px;*/
+	float: left;
+	/*margin-left: 30px;
+	margin-right: 30px;*/
+	padding-left: 50px;/*
+	padding-right: 50px;*/
+}
+
+.box3 .leadersPhoto img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.leadersPhoto .leaderMem figcaption{
+	text-align: justify;
+}
+.box4{
+	width: 80%;
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.box4 h2{
+	color: #1e4685;
+	font-size: 25px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.totBox{
+	border-top: 2px solid #bfbfbf;
+	border-left: 2px solid #bfbfbf;
+	border-right: 2px solid #bfbfbf;
+	border-radius: 10px;
+}
+
+.accordion{
+	width: 100%;
+	padding: 0 5px;
+	border-bottom: 2px solid #bfbfbf;
+	cursor: pointer;
+	display: flex;
+	margin: 10px 0;
+	margin-bottom: 2px;
+	align-items: center;
+}
+
+.accordion .icon .fa-plus{
+	display: flex;
+	float: right;
+	margin-left: 50px;
+}
+
+.accordion .icon{
+	margin: 10px 10px 10px 0;
+	width: 15px;
+	height: 15px;
+	background: no-repeat 8px 7px #fff;
+	/*border-radius: 25%;*/
+	float: left;
+	transition: all .5s ease-in;
+	color: #c7c7c7;
+}
+
+.accordion h3{
+	font-size: 22px;
+	margin: 0;
+	padding: 3px 0 0 0;
+	font-weight: normal;
+}
+
+.accordion:hover{
+	color: #3898ff;
+}
+
+.panel{
+	padding: 0 15px;
+	border-left: 1px solid #1e4685;
+	margin-left: 25px;
+	font-size: 14px;
+	text-align: justify;
+	overflow: hidden;
+	max-height: 0;
+	transition: all .5s ease-in;
+}
+
